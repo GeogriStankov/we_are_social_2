@@ -15,11 +15,11 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_nbWefqblVg8HnYsFmp
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_N35jP51CRqW4FKBMa8MAL1A4')
 
 # Paypal environment variables
-PAYPAL_NOTIFY_URL = 'https://code-institute-sociall-staging.herokuapp.com'
+PAYPAL_NOTIFY_URL = 'probno.herokuapp.com'
 PAYPAL_RECEIVER_EMAIL = 'aaron@codeinstitute.net'
 
-SITE_URL = 'https://code-institute-sociall-staging.herokuapp.com'
-ALLOWED_HOSTS.append('code-institute-sociall-staging.herokuapp.com')
+SITE_URL = 'probno.herokuapp.com'
+ALLOWED_HOSTS.append('probno.herokuapp.com')
 
 # Log DEBUG information to the console
 LOGGING = {
